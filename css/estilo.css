@@ -69,7 +69,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: center;
     list-style: none;
-    border-bottom: 1px solid var(--bio-bg-color);
+    border-bottom: 5px solid var(--bio-bg-color);
     margin-bottom: 25px;
     padding: 25px;
 }
@@ -78,6 +78,7 @@ box-sizing: border-box;
     flex: 1 1 0;
     max-width: 60px;
 }
+
 
 #social-container li a {
     color: var(--main-color);
@@ -97,9 +98,32 @@ box-sizing: border-box;
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
+    margin-bottom: 25px;
 }
 
 #email-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+}
+
+#download-container {
+    display: flex;
+    justify-content: center;
+}
+
+#download-container ion-icon,
+#download-container a {
+    flex: 1 1 0;
+}
+#download-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+}
+
+#download-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
